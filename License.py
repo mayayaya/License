@@ -72,8 +72,6 @@ if __name__=="__main__":
     view.title("License Creator")
     view.geometry('330x130+330+260')
     view.resizable(False, False) #x,y不能縮放
-    # view.iconbitmap("RT_logo.ico")
-
 
     Top_Frame=Frame(view)
     Top_Frame.pack(fill='x', padx=10, pady=10)
